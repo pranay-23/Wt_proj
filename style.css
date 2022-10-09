@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+form{
+    line-height: 2;
+}
+
+h1,h2{
+    font-weight: 700;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+    text-align: center;
+}
+.coloured-section{
+    background-color: #06283D;
+    color: white;
+}
+
+/* Button */
+
+.btn1{
+    background-color: #06283D;
+    margin: 5% 3% 0% 0%;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+}
+
+.btn2{
+    background-color: #06283D;
+    margin: 15%;
+    margin-bottom: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+}
+
+form{
+    padding-top: 5%;
+}
+
+.left{
+    width: 35%;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-color: #DFF6FF;
+    border-radius:5% ;
+    margin:auto ;
+    color: black;
+}
+
+.big-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.right{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 5rem;    
+    background-color: #AEBDCA;
+    border-radius:5% ;
+    color: black;
+    margin: auto;
+    width: 35%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding:1rem 1rem 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+/* Features */
+
+#features{
+    position: relative;
+}
+
+.pfea{
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+    width: 75%;
+    display: inline-block;
+}
+
+
+.fea{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.chal{
+    color: #1746A2;
+    display: inline-block;
+   vertical-align: baseline;
+   margin-bottom: 1rem;
+}
+.chal:hover{
+    color: #06283D;
+}
+
+/* Testimonials */
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dog-img{
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+.timetable{
+    width: 58%;
+    border: 1px solid;
+}
+
+/* Footer */
+
+.footer-icon{
+    color: black;
+    margin: 20px 10px;
+}
+
+.footer-par{
+    color: gray;
+}
+
+
+@media (max-width:1028px){
+    .btn2{
+        font-size: 1rem;
+    }
+}
+
+.cta-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 80px;
+    width: 80px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    
+}
